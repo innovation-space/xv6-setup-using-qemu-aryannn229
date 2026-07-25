@@ -1,3 +1,4 @@
+
 OBJS = \
 	bio.o\
 	console.o\
@@ -168,6 +169,7 @@ mkfs: mkfs.c fs.h
 UPROGS=\
 	_cat\
 	_echo\
+        _hello\
 	_forktest\
 	_grep\
 	_init\
